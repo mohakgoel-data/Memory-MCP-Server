@@ -514,9 +514,11 @@
         &nbsp;&nbsp;<span class="schema-key">"user_id"</span>: <span class="schema-type">string</span>,<br/>
         &nbsp;&nbsp;<span class="schema-key">"content"</span>: <span class="schema-val">"prefers Python over JS"</span>,<br/>
         &nbsp;&nbsp;<span class="schema-key">"category"</span>: <span class="schema-val">"preference"</span>,<br/>
+        &nbsp;&nbsp;<span class="schema-key">"tag"</span>: <span class="schema-val">"relation"</span>,<br/>
         &nbsp;&nbsp;<span class="schema-comment">// preference | project | decision | fact</span><br/>
         &nbsp;&nbsp;<span class="schema-key">"strength"</span>: <span class="schema-type">0.84</span>,<br/>
         &nbsp;&nbsp;<span class="schema-comment">// 0.0–1.0, decays over time</span><br/>
+        &nbsp;&nbsp;<span class="schema-key">"importance"</span>: <span class="schema-type">1/2/3</span>,<br/>
         &nbsp;&nbsp;<span class="schema-key">"embedding"</span>: <span class="schema-type">vector(1536)</span>,<br/>
         &nbsp;&nbsp;<span class="schema-key">"created_at"</span>: <span class="schema-type">timestamp</span>,<br/>
         &nbsp;&nbsp;<span class="schema-key">"last_recalled"</span>: <span class="schema-type">timestamp</span><br/>
@@ -575,7 +577,7 @@
     </div>
     <div class="stack-chip">
       <span class="stack-emoji">🧠</span>
-      <div class="stack-name">Claude API</div>
+      <div class="stack-name">Gemini API</div>
       <div class="stack-role">Memory extraction<br/>Structuring facts</div>
     </div>
     <div class="stack-chip">
